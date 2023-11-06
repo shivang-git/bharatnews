@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bharatnews.github.io/static/css/main.0e7d36f2.css",
-    "main.js": "/bharatnews.github.io/static/js/main.fc689dc6.js",
-    "static/js/787.a957b708.chunk.js": "/bharatnews.github.io/static/js/787.a957b708.chunk.js",
+    "main.css": "/bharatnews.github.io/static/css/main.f610ed38.css",
+    "main.js": "/bharatnews.github.io/static/js/main.3375a537.js",
+    "static/js/787.cc919398.chunk.js": "/bharatnews.github.io/static/js/787.cc919398.chunk.js",
     "static/media/ph.png": "/bharatnews.github.io/static/media/ph.16e45c61df3a28f5d179.png",
     "index.html": "/bharatnews.github.io/index.html",
-    "main.0e7d36f2.css.map": "/bharatnews.github.io/static/css/main.0e7d36f2.css.map",
-    "main.fc689dc6.js.map": "/bharatnews.github.io/static/js/main.fc689dc6.js.map",
-    "787.a957b708.chunk.js.map": "/bharatnews.github.io/static/js/787.a957b708.chunk.js.map"
+    "main.f610ed38.css.map": "/bharatnews.github.io/static/css/main.f610ed38.css.map",
+    "main.3375a537.js.map": "/bharatnews.github.io/static/js/main.3375a537.js.map",
+    "787.cc919398.chunk.js.map": "/bharatnews.github.io/static/js/787.cc919398.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e7d36f2.css",
-    "static/js/main.fc689dc6.js"
+    "static/css/main.f610ed38.css",
+    "static/js/main.3375a537.js"
   ]
 }
