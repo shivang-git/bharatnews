@@ -67,25 +67,28 @@ export default function News(props) {
         {loading && <Spinner />}
         <div className="row">
           {!loading &&
-            articles.map((element) => (
-              <div className="col-md-4 mb-3" key={element.url}>
-                <Newsitems
-                  element={element}
-                  title={element.title}
-                  desc={element.description}
-                  imageurl={
-                    !element.urlToImage ? placeholder : element.urlToImage
-                  }
-                  publishedAt={element.publishedAt}
-                  source={element.source.name}
-                  sourceid={element.source.id}
-                  author={element.author}
-                  category={props.category}
-                  contenturl={element.url}
-                  newsDetail={newsDetail}
-                />
-              </div>
-))}
+            articles.map(
+              (element) =>{
+                <div className="col-md-4 mb-3" key={element.url}>
+                  <Newsitems
+                    element={element}
+                    title={element.title}
+                    desc={element.description}
+                    imageurl={
+                      !element.urlToImage ? placeholder : element.urlToImage
+                    }
+                    publishedAt={element.publishedAt}
+                    source={element.source.name}
+                    sourceid={element.source.id}
+                    author={element.author}
+                    category={props.category}
+                    contenturl={element.url}
+                    newsDetail={newsDetail}
+                  />
+                </div>
+              }
+            )
+            }
         </div>
       
       {!loading && (
