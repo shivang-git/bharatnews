@@ -1,7 +1,7 @@
 {
   "name": "bharatnews",
   "version": "0.1.0",
-  "homepage": "https://shivang-git.github.io/bharatnews=reactapp",
+  "homepage": "https://shivang-git.github.io/bharatnews.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
