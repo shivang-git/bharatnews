@@ -69,6 +69,7 @@ export default function News(props) {
           {!loading &&
             articles.map(
               (element) =>{
+                return(
                 <div className="col-md-4 mb-3" key={element.url}>
                   <Newsitems
                     element={element}
@@ -85,7 +86,7 @@ export default function News(props) {
                     contenturl={element.url}
                     newsDetail={newsDetail}
                   />
-                </div>
+                </div>)
               }
             )
             }
